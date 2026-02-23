@@ -1,20 +1,21 @@
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
 
-        // Hardcoded string
-        String word = "madam";
+        // Original string to check
+        String original = "level";
 
-        // Reverse the string
+        // Reverse the string using loop and concatenation
         String reversed = "";
-        for (int i = word.length() - 1; i >= 0; i--) {
-            reversed = reversed + word.charAt(i);
+
+        for (int i = original.length() - 1; i >= 0; i--) {
+            reversed = reversed + original.charAt(i);
         }
 
-        // Check palindrome using if-else
-        if (word.equals(reversed)) {
-            System.out.println("The word \"" + word + "\" is a palindrome.");
+        // Compare original and reversed string using equals()
+        if (original.equals(reversed)) {
+            System.out.println("The string \"" + original + "\" is a palindrome.");
         } else {
-            System.out.println("The word \"" + word + "\" is NOT a palindrome.");
+            System.out.println("The string \"" + original + "\" is NOT a palindrome.");
         }
     }
 }
