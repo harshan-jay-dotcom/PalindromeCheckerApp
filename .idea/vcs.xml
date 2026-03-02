@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/B2P6_RA2411003010575/PalindromeCheckerApp" vcs="Git" />
   </component>
 </project>
